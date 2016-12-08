@@ -1,0 +1,419 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    
+    <title>Examples &#8212; Sphinx Material Design Theme  documentation</title>
+
+    
+    <link rel="stylesheet" href="_static/sphinx_materialdesign_theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/notosanscjkjp.css" type="text/css" />
+    <link rel="stylesheet" href="_static/roboto.css" type="text/css" />
+    <link rel="stylesheet" href="_static/material-icons.css" type="text/css" />
+    <link rel="stylesheet" href="_static/material-design-lite-1.2.1/material.indigo-pink.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx_materialdesign_theme.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/material-design-lite-1.2.1/material.min.js"></script>
+    <script type="text/javascript" src="_static/sphinx_materialdesign_theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Developer’s Tips" href="dev/index.html" />
+    <link rel="prev" title="Set up" href="setup.html" /> 
+  </head>
+  <body role="document">
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-drawer">
+    <header class="mdl-layout__header mdl-layout__header--waterfall ">
+    <div class="mdl-layout__header-row">
+        
+        <nav class="mdl-navigation breadcrumb">
+            <a  class="mdl-navigation__link" href="index.html">Top</a>
+            <i class="material-icons">navigate_next</i><a class="mdl-navigation__link is-active">Examples</a>
+        </nav>
+        <div class="mdl-layout-spacer"></div>
+        
+<form class="form-inline pull-sm-right" action="search.html" method="get">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
+        <label class="mdl-button mdl-js-button mdl-button--icon"  for="waterfall-exp">
+            <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" name="q"  id="waterfall-exp" placeholder="Search" />
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </div>
+      </div>
+</form>
+    </div>
+    <div class="mdl-layout__header-row header-links">
+      <div class="mdl-layout-spacer"></div>
+      <nav class="mdl-navigation">
+          <a  class="mdl-navigation__link" href="index.html">
+                  <i class="material-icons navigation-link-icon">home</i>
+                  Home
+              </a>
+          
+              <a  class="mdl-navigation__link" href="http://example.com">
+                  <i class="material-icons navigation-link-icon">launch</i>
+                  ExternalLink
+              </a>
+          
+              <a  class="mdl-navigation__link" href="http://example.com">
+                  
+                  NoIconLink
+              </a>
+          
+              <a  class="mdl-navigation__link" href="https://github.com/myyasuda/sphinx_materialdesign_theme">
+                  <i class="material-icons navigation-link-icon">link</i>
+                  GitHub
+              </a>
+    </div>
+</header>
+    <header class="mdl-layout__drawer">
+    
+          <!-- Title -->
+      <span class="mdl-layout-title">
+          <a class="brand" href="index.html">
+                  Sphinx Material Design Theme
+          </a>
+      </span>
+    
+
+    <span class="mdl-layout-title toc">Table Of Contents</span>
+    
+    
+        <nav class="mdl-navigation">
+        <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="setup.html">Set up</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="setup.html#instllation">Instllation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="setup.html#setting-conf-py">Setting conf.py</a></li>
+<li class="toctree-l2"><a class="reference internal" href="setup.html#html-theme-options">Html theme options</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Examples</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#typpography">Typpography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#image">Image</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tables">Tables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#code-blocks">Code Blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#quotation">Quotation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#download-links">Download Links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#admonitions">Admonitions</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="dev/index.html">Developer&#8217;s Tips</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dev/tools.html">Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dev/commands.html">Build Commands</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="dev/commands.html#packaging">packaging</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dev/commands.html#install">install</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dev/commands.html#register-pypi">Register PyPI</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dev/commands.html#build-example-s-document">Build Example&#8217;s Document</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="japanese/index.html">日本語フォント表示テスト用</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="japanese/index.html#id2">コンテンツ</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="japanese/setup.html">セットアップ</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="japanese/setup.html#id2">インストール方法</a></li>
+<li class="toctree-l4"><a class="reference internal" href="japanese/setup.html#conf-py">conf.pyの設定</a></li>
+<li class="toctree-l4"><a class="reference internal" href="japanese/setup.html#html">HTMLテーマオプション</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="japanese/examples.html">表示例</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="japanese/examples.html#id2">タイポグラフィ</a></li>
+<li class="toctree-l4"><a class="reference internal" href="japanese/examples.html#id3">画像</a></li>
+<li class="toctree-l4"><a class="reference internal" href="japanese/examples.html#id4">テーブル</a></li>
+<li class="toctree-l4"><a class="reference internal" href="japanese/examples.html#id5">コード</a></li>
+<li class="toctree-l4"><a class="reference internal" href="japanese/examples.html#id6">引用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="japanese/examples.html#id7">ダウンロード用リンク</a></li>
+<li class="toctree-l4"><a class="reference internal" href="japanese/examples.html#id8">警告</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </nav>
+    
+
+</header>
+    <main class="mdl-layout__content">
+        <div class="page-content">
+            
+  <blockquote>
+<div></div></blockquote>
+<div class="section" id="examples">
+<h1>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="typpography">
+<span id="top"></span><h2>Typpography<a class="headerlink" href="#typpography" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-rst"><div class="highlight"><pre><span></span><span class="gh">===========</span>
+<span class="gh">h1. Heading</span>
+<span class="gh">===========</span>
+
+<span class="gh">h2. Heading</span>
+<span class="gh">===========</span>
+
+<span class="gh">-----------</span>
+<span class="gh">h3. Heading</span>
+<span class="gh">-----------</span>
+
+<span class="gh">h4. Heading</span>
+<span class="gh">-----------</span>
+</pre></div>
+</div>
+<h1>h1. Heading</h1>
+<h2>h2. Heading</h2>
+<h3>h3. Heading</h3>
+<h4>h4. Heading</h4>
+<h5>h5. Heading</h5>
+<h6>h6. Heading</h6></div>
+<div class="section" id="image">
+<h2>Image<a class="headerlink" href="#image" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-rst"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">image</span><span class="p">::</span> img/sample.png
+</pre></div>
+</div>
+<img alt="_images/sample.png" src="_images/sample.png" />
+<div class="highlight-rst"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">figure</span><span class="p">::</span> img/sample.png
+   <span class="nc">:scale:</span> <span class="nf">50 %</span>
+   <span class="nc">:alt:</span> <span class="nf">sample image</span>
+</pre></div>
+</div>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/sample.png"><img alt="sample image" src="_images/sample.png" style="width: 335.5px; height: 105.0px;" /></a>
+</div>
+</div>
+<div class="section" id="tables">
+<h2>Tables<a class="headerlink" href="#tables" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-rst"><div class="highlight"><pre><span></span>+---------+-----------+------------+-------------------+
+<span class="o">|</span>         | 使用例    |  書き方    |  HTMLタグ         |
++=========+===========+============+===================+
+|強調     |<span class="ge">*文字列*</span>   | \*で囲む   | &lt;em&gt;              |
++---------+-----------+------------+-------------------+
+|強い強調 |<span class="gs">**文字列**</span> | \*\*で囲む | &lt;strong&gt;          |
++---------+-----------+------------+-------------------+
+|コード   |<span class="s">``文字列``</span> |\`\`で囲む  |&lt;span class=&quot;pre&quot;&gt; |
++---------+-----------+------------+-------------------+
+</pre></div>
+</div>
+<table border="1" class="docutils">
+<colgroup>
+<col width="18%" />
+<col width="22%" />
+<col width="24%" />
+<col width="37%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">&nbsp;</th>
+<th class="head">使用例</th>
+<th class="head">書き方</th>
+<th class="head">HTMLタグ</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>強調</td>
+<td><em>文字列</em></td>
+<td>*で囲む</td>
+<td>&lt;em&gt;</td>
+</tr>
+<tr class="row-odd"><td>強い強調</td>
+<td><strong>文字列</strong></td>
+<td>**で囲む</td>
+<td>&lt;strong&gt;</td>
+</tr>
+<tr class="row-even"><td>コード</td>
+<td><code class="docutils literal"><span class="pre">文字列</span></code></td>
+<td>``で囲む</td>
+<td>&lt;span class=&#8221;pre&#8221;&gt;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="code-blocks">
+<h2>Code Blocks<a class="headerlink" href="#code-blocks" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ふつうの文章</span><span class="p">::</span>
+
+    <span class="n">コードブロック</span>
+
+<span class="n">ふつうの文章</span>
+</pre></div>
+</div>
+<div class="highlight-rst"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">code-block</span><span class="p">::</span> <span class="k">python</span>
+
+      <span class="kn">import</span> <span class="nn">sys</span>
+
+      <span class="k">print</span> <span class="n">sys</span><span class="o">.</span><span class="n">path</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="quotation">
+<h2>Quotation<a class="headerlink" href="#quotation" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-rst"><div class="highlight"><pre><span></span><span class="o">|</span> These lines are
+<span class="o">|</span> broken exactly like in
+<span class="o">|</span> the source file.
+</pre></div>
+</div>
+<p><strong>example</strong></p>
+<blockquote>
+<div><div class="line-block">
+<div class="line">These lines are</div>
+<div class="line">broken exactly like in</div>
+<div class="line">the source file.</div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="download-links">
+<h2>Download Links<a class="headerlink" href="#download-links" title="Permalink to this headline">¶</a></h2>
+<p><strong>rst</strong></p>
+<div class="highlight-rst"><div class="highlight"><pre><span></span><span class="na">:download:</span><span class="nv">`this file &lt;examples.rst&gt;`</span>
+</pre></div>
+</div>
+<p><strong>Output Example</strong></p>
+<p><a class="reference download internal" href="_downloads/examples.rst" download=""><code class="xref download docutils literal"><span class="pre">this</span> <span class="pre">file</span></code></a></p>
+</div>
+<div class="section" id="admonitions">
+<h2>Admonitions<a class="headerlink" href="#admonitions" title="Permalink to this headline">¶</a></h2>
+<p><strong>Hint</strong></p>
+<div class="highlight-rst"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">hint</span><span class="p">::</span>
+
+    This is a hint directive!
+</pre></div>
+</div>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p class="last">This is a <strong>hint</strong> directive!</p>
+</div>
+<p><strong>Note</strong></p>
+<div class="highlight-rst"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">note</span><span class="p">::</span>
+
+    This is a note directive!
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This is a <strong>note</strong> directive!</p>
+</div>
+<p><strong>Warning</strong></p>
+<div class="highlight-rst"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">warning</span><span class="p">::</span>
+
+    This is a warning directive!
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">This is a <strong>warning</strong> directive!</p>
+</div>
+<p><strong>Tip</strong></p>
+<div class="highlight-rst"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">tip</span><span class="p">::</span>
+
+    This is a tip directive!
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">This is a <strong>tip</strong> directive!</p>
+</div>
+<p><strong>Important</strong></p>
+<div class="highlight-rst"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">important</span><span class="p">::</span>
+
+    This is a important directive!
+</pre></div>
+</div>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">This is a <strong>important</strong> directive!</p>
+</div>
+<p><strong>Error</strong></p>
+<div class="highlight-rst"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">error</span><span class="p">::</span>
+
+    This is a error directive!
+</pre></div>
+</div>
+<div class="admonition error">
+<p class="first admonition-title">Error</p>
+<p class="last">This is a <strong>error</strong> directive!</p>
+</div>
+<p><strong>Caution</strong></p>
+<div class="highlight-rst"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">caution</span><span class="p">::</span>
+
+    This is a caution directive!
+</pre></div>
+</div>
+<div class="admonition caution">
+<p class="first admonition-title">Caution</p>
+<p class="last">This is a caution directive!</p>
+</div>
+<p><strong>Danger</strong></p>
+<div class="highlight-rst"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">danger</span><span class="p">::</span>
+
+    This is a danger directive!
+</pre></div>
+</div>
+<div class="admonition danger">
+<p class="first admonition-title">Danger</p>
+<p class="last">This is a <strong>danger</strong> directive!</p>
+</div>
+</div>
+</div>
+
+
+            <div class="pagenation">
+               <a id="button-prev" href="setup.html" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" role="botton" accesskey="P">
+                   <i class="material-icons">arrow_back</i>Previous
+               </a>
+            <div class="mdl-tooltip" data-mdl-for="button-prev">
+            Set up
+            </div>
+               <a id="button-next" href="dev/index.html" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" role="botton" accesskey="N">
+                    Next <i class="material-icons">arrow_forward</i>
+               </a>
+            <div class="mdl-tooltip" data-mdl-for="button-next">
+            Developer’s Tips
+            </div>
+            </div>
+        </div>
+        <footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer__left-section">
+      <div class="mdl-logo">Sphinx Material Design Theme</div>
+        
+        <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="setup.html">Set up</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dev/index.html">Developer&#8217;s Tips</a></li>
+<li class="toctree-l1"><a class="reference internal" href="japanese/index.html">日本語フォント表示テスト用</a></li>
+</ul>
+
+    </div>
+
+    <div class="mdl-mini-footer__right-section">
+        <div>&copy; Copyright 2016, Masahiko Yasuda.</div>
+      <div>Generated by <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.5 using <a href="https://github.com/myyasuda/sphinx_materialdesign_theme">sphinx_materialdesign_theme</a> 0.0.2.</div>
+    </div>
+</footer>
+    </main>
+</div>
+  </body>
+</html>

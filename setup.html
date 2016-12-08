@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    
+    <title>Set up &#8212; Sphinx Material Design Theme  documentation</title>
+
+    
+    <link rel="stylesheet" href="_static/sphinx_materialdesign_theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/notosanscjkjp.css" type="text/css" />
+    <link rel="stylesheet" href="_static/roboto.css" type="text/css" />
+    <link rel="stylesheet" href="_static/material-icons.css" type="text/css" />
+    <link rel="stylesheet" href="_static/material-design-lite-1.2.1/material.indigo-pink.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx_materialdesign_theme.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/material-design-lite-1.2.1/material.min.js"></script>
+    <script type="text/javascript" src="_static/sphinx_materialdesign_theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Examples" href="examples.html" />
+    <link rel="prev" title="Sphinx Material Design Theme" href="index.html" /> 
+  </head>
+  <body role="document">
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-drawer">
+    <header class="mdl-layout__header mdl-layout__header--waterfall ">
+    <div class="mdl-layout__header-row">
+        
+        <nav class="mdl-navigation breadcrumb">
+            <a  class="mdl-navigation__link" href="index.html">Top</a>
+            <i class="material-icons">navigate_next</i><a class="mdl-navigation__link is-active">Set up</a>
+        </nav>
+        <div class="mdl-layout-spacer"></div>
+        
+<form class="form-inline pull-sm-right" action="search.html" method="get">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
+        <label class="mdl-button mdl-js-button mdl-button--icon"  for="waterfall-exp">
+            <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" name="q"  id="waterfall-exp" placeholder="Search" />
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </div>
+      </div>
+</form>
+    </div>
+    <div class="mdl-layout__header-row header-links">
+      <div class="mdl-layout-spacer"></div>
+      <nav class="mdl-navigation">
+          <a  class="mdl-navigation__link" href="index.html">
+                  <i class="material-icons navigation-link-icon">home</i>
+                  Home
+              </a>
+          
+              <a  class="mdl-navigation__link" href="http://example.com">
+                  <i class="material-icons navigation-link-icon">launch</i>
+                  ExternalLink
+              </a>
+          
+              <a  class="mdl-navigation__link" href="http://example.com">
+                  
+                  NoIconLink
+              </a>
+          
+              <a  class="mdl-navigation__link" href="https://github.com/myyasuda/sphinx_materialdesign_theme">
+                  <i class="material-icons navigation-link-icon">link</i>
+                  GitHub
+              </a>
+    </div>
+</header>
+    <header class="mdl-layout__drawer">
+    
+          <!-- Title -->
+      <span class="mdl-layout-title">
+          <a class="brand" href="index.html">
+                  Sphinx Material Design Theme
+          </a>
+      </span>
+    
+
+    <span class="mdl-layout-title toc">Table Of Contents</span>
+    
+    
+        <nav class="mdl-navigation">
+        <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Set up</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#instllation">Instllation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setting-conf-py">Setting conf.py</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#html-theme-options">Html theme options</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#typpography">Typpography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#image">Image</a></li>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#tables">Tables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#code-blocks">Code Blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#quotation">Quotation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#download-links">Download Links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#admonitions">Admonitions</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="dev/index.html">Developer&#8217;s Tips</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dev/tools.html">Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dev/commands.html">Build Commands</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="dev/commands.html#packaging">packaging</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dev/commands.html#install">install</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dev/commands.html#register-pypi">Register PyPI</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dev/commands.html#build-example-s-document">Build Example&#8217;s Document</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="japanese/index.html">日本語フォント表示テスト用</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="japanese/index.html#id2">コンテンツ</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="japanese/setup.html">セットアップ</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="japanese/setup.html#id2">インストール方法</a></li>
+<li class="toctree-l4"><a class="reference internal" href="japanese/setup.html#conf-py">conf.pyの設定</a></li>
+<li class="toctree-l4"><a class="reference internal" href="japanese/setup.html#html">HTMLテーマオプション</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="japanese/examples.html">表示例</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="japanese/examples.html#id2">タイポグラフィ</a></li>
+<li class="toctree-l4"><a class="reference internal" href="japanese/examples.html#id3">画像</a></li>
+<li class="toctree-l4"><a class="reference internal" href="japanese/examples.html#id4">テーブル</a></li>
+<li class="toctree-l4"><a class="reference internal" href="japanese/examples.html#id5">コード</a></li>
+<li class="toctree-l4"><a class="reference internal" href="japanese/examples.html#id6">引用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="japanese/examples.html#id7">ダウンロード用リンク</a></li>
+<li class="toctree-l4"><a class="reference internal" href="japanese/examples.html#id8">警告</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </nav>
+    
+
+</header>
+    <main class="mdl-layout__content">
+        <div class="page-content">
+            
+  <blockquote>
+<div></div></blockquote>
+<div class="section" id="set-up">
+<h1>Set up<a class="headerlink" href="#set-up" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="instllation">
+<h2>Instllation<a class="headerlink" href="#instllation" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-bat"><div class="highlight"><pre><span></span>pip install sphinx_materialdesign_theme
+</pre></div>
+</div>
+</div>
+<div class="section" id="setting-conf-py">
+<h2>Setting conf.py<a class="headerlink" href="#setting-conf-py" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sphinx_materialdesign_theme</span>
+
+<span class="n">html_theme</span> <span class="o">=</span> <span class="s1">&#39;sphinx_materialdesign_theme&#39;</span>
+<span class="n">html_theme_path</span> <span class="o">=</span> <span class="p">[</span><span class="n">sphinx_materialdesign_theme</span><span class="o">.</span><span class="n">get_path</span><span class="p">()]</span>
+
+<span class="c1"># Html logo in navbar.</span>
+<span class="c1"># Fit in the navbar at the height of image is 37 px.</span>
+<span class="n">html_logo</span> <span class="o">=</span> <span class="s1">&#39;_static/logo.jpg&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="html-theme-options">
+<h2>Html theme options<a class="headerlink" href="#html-theme-options" title="Permalink to this headline">¶</a></h2>
+<p>The following is a description of the options that can be specified in <strong>html_theme_options</strong> in conf.py.</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="n">html_theme_options</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="c1"># Specify a list of menu in Header.</span>
+    <span class="c1"># Tuples forms:</span>
+    <span class="c1">#  (&#39;Name&#39;, &#39;external url or path of pages in the document&#39;, boolean, &#39;icon name&#39;)</span>
+    <span class="c1">#</span>
+    <span class="c1"># Third argument:</span>
+    <span class="c1"># True indicates an external link.</span>
+    <span class="c1"># False indicates path of pages in the document.</span>
+    <span class="c1">#</span>
+    <span class="c1"># Fourth argument:</span>
+    <span class="c1"># Specify the icon name.</span>
+    <span class="c1"># For details see link.</span>
+    <span class="c1"># https://material.io/icons/</span>
+    <span class="s1">&#39;header_links&#39;</span> <span class="p">:</span> <span class="p">[</span>
+        <span class="p">(</span><span class="s1">&#39;Home&#39;</span><span class="p">,</span> <span class="s1">&#39;index&#39;</span><span class="p">,</span> <span class="bp">False</span><span class="p">,</span> <span class="s1">&#39;home&#39;</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">&quot;ExternalLink&quot;</span><span class="p">,</span> <span class="s2">&quot;http://example.com&quot;</span><span class="p">,</span> <span class="bp">True</span><span class="p">,</span> <span class="s1">&#39;launch&#39;</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">&quot;NoIconLink&quot;</span><span class="p">,</span> <span class="s2">&quot;http://example.com&quot;</span><span class="p">,</span> <span class="bp">True</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">&quot;GitHub&quot;</span><span class="p">,</span> <span class="s2">&quot;https://github.com/myyasuda/sphinx_materialdesign_theme&quot;</span><span class="p">,</span> <span class="bp">True</span><span class="p">,</span> <span class="s1">&#39;link&#39;</span><span class="p">)</span>
+    <span class="p">],</span>
+
+    <span class="c1"># Customize css colors.</span>
+    <span class="c1"># For details see link.</span>
+    <span class="c1"># https://getmdl.io/customize/index.html</span>
+    <span class="c1">#</span>
+    <span class="c1"># Values: amber, blue, brown, cyan deep_orange, deep_purple, green, grey, indigo, light_blue,</span>
+    <span class="c1">#         light_green, lime, orange, pink, purple, red, teal, yellow(Default: indigo)</span>
+    <span class="s1">&#39;primary_color&#39;</span><span class="p">:</span> <span class="s1">&#39;indigo&#39;</span><span class="p">,</span>
+    <span class="c1"># Values: Same as primary_color. (Default: pink)</span>
+    <span class="s1">&#39;accent_color&#39;</span><span class="p">:</span> <span class="s1">&#39;pink&#39;</span><span class="p">,</span>
+
+    <span class="c1"># Customize layout.</span>
+    <span class="c1"># For details see link.</span>
+    <span class="c1"># https://getmdl.io/components/index.html#layout-section</span>
+    <span class="s1">&#39;fixed_drawer&#39;</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span>
+    <span class="s1">&#39;fixed_header&#39;</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span>
+    <span class="s1">&#39;header_waterfall&#39;</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span>
+    <span class="s1">&#39;header_scroll&#39;</span><span class="p">:</span> <span class="bp">False</span><span class="p">,</span>
+
+    <span class="c1"># Render title in header.</span>
+    <span class="c1"># Values: True, False (Default: False)</span>
+    <span class="s1">&#39;show_header_title&#39;</span><span class="p">:</span> <span class="bp">False</span><span class="p">,</span>
+    <span class="c1"># Render title in drawer.</span>
+    <span class="c1"># Values: True, False (Default: True)</span>
+    <span class="s1">&#39;show_drawer_title&#39;</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span>
+    <span class="c1"># Render footer.</span>
+    <span class="c1"># Values: True, False (Default: True)</span>
+    <span class="s1">&#39;show_footer&#39;</span><span class="p">:</span> <span class="bp">True</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+            <div class="pagenation">
+               <a id="button-prev" href="index.html" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" role="botton" accesskey="P">
+                   <i class="material-icons">arrow_back</i>Previous
+               </a>
+            <div class="mdl-tooltip" data-mdl-for="button-prev">
+            Sphinx Material Design Theme
+            </div>
+               <a id="button-next" href="examples.html" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" role="botton" accesskey="N">
+                    Next <i class="material-icons">arrow_forward</i>
+               </a>
+            <div class="mdl-tooltip" data-mdl-for="button-next">
+            Examples
+            </div>
+            </div>
+        </div>
+        <footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer__left-section">
+      <div class="mdl-logo">Sphinx Material Design Theme</div>
+        
+        <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Set up</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dev/index.html">Developer&#8217;s Tips</a></li>
+<li class="toctree-l1"><a class="reference internal" href="japanese/index.html">日本語フォント表示テスト用</a></li>
+</ul>
+
+    </div>
+
+    <div class="mdl-mini-footer__right-section">
+        <div>&copy; Copyright 2016, Masahiko Yasuda.</div>
+      <div>Generated by <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.5 using <a href="https://github.com/myyasuda/sphinx_materialdesign_theme">sphinx_materialdesign_theme</a> 0.0.2.</div>
+    </div>
+</footer>
+    </main>
+</div>
+  </body>
+</html>
